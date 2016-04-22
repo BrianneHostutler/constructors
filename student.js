@@ -7,15 +7,14 @@ this.GPA = GPA;
 this.detentions = detentions;
 this.sleepingInClass =sleepingInClass;
 this.catchPhrase = catchPhrase;
-
-var canStudentHaveFun = function(detentions, GPA){
+this.canStudentHaveFun = function(detentions, GPA){
     if(detentions<10 && GPA >= 2){
       console.log("Can have fun!");
     }
-
+    else {
+    	console.log("No fun for you!")
+    }
 }
 
-
-}
 
 module.exports = Student;

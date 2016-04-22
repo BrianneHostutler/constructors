@@ -12,11 +12,11 @@ this.studentEntersBus = function (n, g, gr, GPA, d, s, c){
 }
 
 this.busChatter = function(){
-var phrase = [];
+var catchPhrase = [];
 		for (var i = 0; i < this.studentsOnTheBus.length; i++) {
-			phrase.push(this.studentsOnTheBus[i].canStudentHaveFun());
+			catchPhrase.push(this.studentsOnTheBus[i].canStudentHaveFun());
 		}
-		return phrase;
+		return catchPhrase;
 }
 
 
